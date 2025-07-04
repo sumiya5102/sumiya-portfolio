@@ -1,26 +1,27 @@
 import styles from "./ProjectsStyles.module.css";
 import viberr from "../../assets/viberr.jpg";
-import nodejsapp from "../../assets/nodejsapp.png";
+import Credit from "../../assets/Credit.jpg";
 import hipsster from "../../assets/hipsster.jpeg";
 import ProjectCard from "../../common/ProjectCard";
-import foodmunch from "../../assets/food-munch.png";
+import facial from "../../assets/facial.webp";
 
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
-        <ProjectCard src={viberr} link="" h3="Portfolio Website" p="" />
         <ProjectCard
-          src={nodejsapp}
+          src={Credit}
           link=""
-          h3="Deployment Of Nodejs App"
+          h3="Credit Risk Prediction System"
           p=""
         />
+        <ProjectCard src={viberr} link="" h3="Portfolio Website" p="" />
+
         <ProjectCard
-          src={foodmunch}
-          link="https://saiefoodmunch.ccbp.tech/"
-          h3="Food Munch Web App"
+          src={facial}
+          link=""
+          h3="Facial Emotion Recognition"
           p=""
         />
         <ProjectCard

@@ -27,7 +27,7 @@ function Hero() {
         <img
           className={styles.hero}
           src={heroImg}
-          alt="Profile Picture of Srikar Kalvakuntla"
+          alt="Profile Picture of Sumiya Veeruru"
         ></img>
         <img
           className={styles.colorMode}
@@ -38,30 +38,27 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>
-          Srikar Reddy <br /> Kalvakuntla
+          Sumiya <br /> Veeruru
         </h1>
-        <h2>Full Stack Developer</h2>
+        <h2>Machine Learning Engineer</h2>
         <span>
-          <a href="https://srikar.reddy2909@gmail.com" target="_blank">
+          <a href="https://veerurusumiya@gmail.com" target="_blank">
             <img src={gmailIcon} alt="Gmail Icon" />
           </a>
           <a href="https://twitter.com" target="_blank">
             <img src={twitterIcon} alt="Twitter Icon" />
           </a>
-          <a href="https://github.com/srikar2909" target="_blank">
+          <a href="https://github.com/sumiya5102" target="_blank">
             <img src={githubIcon} alt="github Icon" />
           </a>
-          <a
-            href="https://www.linkedin.com/in/srikarreddykalvakuntla"
-            target="_blank"
-          >
+          <a href="https://www.linkedin.com/in/sumiya-veeruru" target="_blank">
             <img src={linkedinIcon} alt="linkedin Icon" />
           </a>
         </span>
         <p className={styles.description}>
           {" "}
-          With a passion for developing modern full stack web application for
-          commercial bussiness
+          Machine Learning Engineer focused on building intelligent, data-driven
+          solutions using scalable models and real-world insights.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
